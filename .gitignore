@@ -1,0 +1,22 @@
+# FamTask Installer - .gitignore
+
+# Installer-Konfiguration
+.famtask_install_config.php
+install-config.js
+
+# Build-Artifacts
+famtask-temp.zip
+famtask.zip
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
