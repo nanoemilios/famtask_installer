@@ -96,4 +96,5 @@ Bei neuer Version:
 ## Verwandte Repositories
 
 - **famtask** – Hauptanwendung
-- **famtask_docker** – Docker Compose Setup + Proxmox Installer
+- **famtask_docker** – Docker Compose Setup
+- **famtask_proxmox** – Proxmox Installer Scripts
