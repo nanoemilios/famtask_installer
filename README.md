@@ -25,7 +25,7 @@ Web-basiertes Installations- und Update-Tool für FamTask. Lädt die neueste Ver
 ```bash
 git clone https://github.com/nanoemilios/famtask_installer.git
 cd famtask_installer
-# Lade den Ordnerinhalt per FTP/SFTP in dein Webverzeichnis hoch
+# Lade installer.php per FTP/SFTP in dein Webverzeichnis hoch
 # Rufe im Browser auf: https://deine-domain.com/installer.php
 ```
 
@@ -64,7 +64,7 @@ zip -r ../famtask.zip . -x "audio/*" ".famtask_cfg.php" "*.git*"
 
 ## Konfiguration
 
-In `installer.php` anpassen:
+In `installer.php` anpassen (Zeilen 2-3):
 
 ```php
 if (!defined('FAMTASK_URL')) define('FAMTASK_URL', 'https://github.com/nanoemilios/famtask/releases/latest/download/famtask.zip');
@@ -89,9 +89,7 @@ Bei neuer Version:
 
 ## Dateien
 
-- `installer.php` – Haupt-Installer (PHP + HTML + CSS + JS)
-- `build.php` – Hilfsscript zum Erstellen der Release-ZIP
-- `famtask.sql` – SQL-Dump für Neuinstallation (optional)
+- `installer.php` – **Einzige Datei** (PHP + HTML + CSS + JS, ~26 KB)
 
 ## Verwandte Repositories
 
